@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <!-- css************ -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/playlists.css">
+
+    <!-- ********ion-icon************* -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="index.html" class="logo">LOGO</a>
+        <nav class="navbar">
+            <a  href="index.html#music">Music</a>
+            <a href="index.html#eventList">Event</a>
+            <a href="index.html#artist">ARTIST</a>
+            <a href="index.html#merchandise">Merchandise</a>
+            <a href="playlist.html">Music Store</a>
+            <a href="index.html#contact_us">Contact US</a>
+
+
+        </nav>
+        <div class="icons">
+
+
+            <ion-icon name="logo-facebook"></ion-icon>
+
+
+            <ion-icon name="logo-instagram"></ion-icon>
+
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <ion-icon name="logo-pinterest"></ion-icon>
+
+
+            <ion-icon id="menu-bars" name="menu-outline"></ion-icon>
+
+        </div>
+    </header>
+
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <button onclick="openPlayListOffset()" playlistBtn class="playlist-btn">Play List</button>
+
+    <section onclick="closePlayListOffset()" id="playListOffset" class="playList-offset">
+
+        <span id="playListOffsetCloseBtn" class="playList-offset-close-btn" ><ion-icon name="close-outline"></ion-icon></span>
+ 
+        <h1>Playlist</h1>
+
+        
+        <h2><span>
+            <ion-icon name="flash-outline"></ion-icon>
+        </span> Last Listening </h2>
+        <h2><span>
+            <ion-icon name="diamond-outline"></ion-icon>
+        </span> Recomended </h2> 
+        <br>
+        <br>
+        
+        <div class="playlist-list">
+            <div class="song">
+                <div class="song-index">1</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="song">
+                <div class="song-index">111</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="song">
+                <div class="song-index">111</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="song">
+                <div class="song-index">111</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="song">
+                <div class="song-index">111</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="song">
+                <div class="song-index">111</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="song">
+                <div class="song-index">111</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="song">
+                <div class="song-index">111</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="song">
+                <div class="song-index">111</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="song">
+                <div class="song-index">111</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="song">
+                <div class="song-index">111</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+            <div class="song">
+                <div class="song-index">111</div>
+                <div class="song-img"> <img src="imgs/songs/1.jpg" alt=""></div>
+                <div class="song-title">Tum Hi Ho</div>
+                <div class="song-play-icon">
+                    <ion-icon name="play-circle-outline"></ion-icon>
+                </div>
+
+            </div>
+         
+        </div>
+
+
+
+
+
+
+    </section>
+
+    
+    <section>
+        <span id="carousel-scroll-left" class=" scroll-btn">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+        </span>
+    
+    <div id="song-carousel" class="song-carousel">
+
+        <div class="carousel-poster">
+            <a href="">
+                <img src="imgs/songs/BANNER.webp" alt="">
+            </a>
+        </div>
+        <div class="carousel-poster">
+            <a href="">
+                <img src="imgs/songs/BANNER2.webp" alt="">
+            </a>
+        </div>
+        <div class="carousel-poster">
+            <a href="">
+                <img src="imgs/songs/BANNER.webp" alt="">
+            </a>
+        </div>
+        <div class="carousel-poster">
+            <a href="">
+                <img src="imgs/songs/BANNER2.webp" alt="">
+            </a>
+        </div>
+        
+    </div>     
+        <span id="carousel-scroll-right" class=" scroll-btn">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+        </span>
+    </section>
+
+    <section class="song-category-list">
+        <h2>Popular Song</h2>
+        <span id="popular-songs-scroll-left" class="scroll-left-btn scroll-btn">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+        </span>
+        <span id="popular-song" class="songs-by-category ">
+            <div class="catagoried-song ">
+
+                <div class="song-poster">
+
+                    <img src="imgs/songs/1.jpg" alt="">
+                </div>
+
+                <div class="song-title overflow ">
+                    Tum Hi HOkasokasofkaoskfoaisf
+                </div>
+                <div class="song-artist overflow">
+                    ASJ
+                </div>
+            </div>
+            <div class="catagoried-song ">
+
+                <div class="song-poster">
+
+                    <img src="imgs/songs/1.jpg" alt="">
+                </div>
+
+                <div class="song-title overflow ">
+                    Tum Hi HOkasokasofkaoskfoaisf
+                </div>
+                <div class="song-artist overflow">
+                    ASJ
+                </div>
+            </div>
+            <div class="catagoried-song ">
+
+                <div class="song-poster">
+
+                    <img src="imgs/songs/1.jpg" alt="">
+                </div>
+
+                <div class="song-title overflow ">
+                    Tum Hi HOkasokasofkaoskfoaisf
+                </div>
+                <div class="song-artist overflow">
+                    ASJ
+                </div>
+            </div>
+            <div class="catagoried-song ">
+
+                <div class="song-poster">
+
+                    <img src="imgs/songs/1.jpg" alt="">
+                </div>
+
+                <div class="song-title overflow ">
+                    Tum Hi HOkasokasofkaoskfoaisf
+                </div>
+                <div class="song-artist overflow">
+                    ASJ
+                </div>
+            </div>
+
+           
+           
+        </span>
+        <span id="popular-songs-scroll-right" class="scroll-right-btn scroll-btn">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+        </span>
+    </section>
+ 
+ 
+    <section class="song-category-list">
+        <h2>Latest Song</h2>
+        <span id="popular-songs-scroll-left" class="scroll-left-btn scroll-btn">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+        </span>
+        <span id="popular-song" class="songs-by-category ">
+            <div class="catagoried-song ">
+                
+                <div class="song-poster">
+                    
+                    <span onmouseover="mouseOver()" onmouseout="mouseOut()"  class="a hover-play-btn">
+                        <ion-icon name="play-circle-outline"></ion-icon>
+                    </span>
+
+                    <img src="imgs/songs/1.jpg" alt="">
+                </div>
+
+                <div class="song-title overflow ">
+                    Tum Hi HOkasokasofkaoskfoaisf
+                </div>
+                <div class="song-artist overflow">
+                    ASJ
+                </div>
+            </div>
+            <div class="catagoried-song ">
+
+                <div class="song-poster">
+
+                    <img src="imgs/songs/1.jpg" alt="">
+                </div>
+
+                <div class="song-title overflow ">
+                    Tum Hi HOkasokasofkaoskfoaisf
+                </div>
+                <div class="song-artist overflow">
+                    ASJ
+                </div>
+            </div>
+            <div class="catagoried-song ">
+
+                <div class="song-poster">
+
+                    <img src="imgs/songs/1.jpg" alt="">
+                </div>
+
+                <div class="song-title overflow ">
+                    Tum Hi HOkasokasofkaoskfoaisf
+                </div>
+                <div class="song-artist overflow">
+                    ASJ
+                </div>
+            </div>
+            <div class="catagoried-song ">
+
+                <div class="song-poster">
+
+                    <img src="imgs/songs/1.jpg" alt="">
+                </div>
+
+                <div class="song-title overflow ">
+                    Tum Hi HOkasokasofkaoskfoaisf
+                </div>
+                <div class="song-artist overflow">
+                    ASJ
+                </div>
+            </div>
+
+           
+           
+        </span>
+        <span id="popular-songs-scroll-right" class="scroll-right-btn scroll-btn">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+        </span>
+    </section>
+
+  
+
+   
+
+
+
+    <script src="js/app.js"></script>   
+
+    <script>
+
+function openPlayListOffset(){
+    // alert("hello");
+
+        const playlistBtn = document.getElementById('playlistBtn');
+        const playListOffset = document.getElementById('playListOffset');
+
+        playListOffset.style.width = "380px";
+
+}
+function closePlayListOffset(){
+    // alert("hello");
+
+        const playListOffsetCloseBtn = document.getElementById('playListOffsetCloseBtn');
+        const playListOffset = document.getElementById('playListOffset');
+
+        playListOffset.style.width = "0px";
+        playListOffset.style.overflow = "hidden";
+
+}
+
+var my_time;
+		var count = 0;
+		setTimeout('pageScroll()', 1200);
+		function pageScroll() {
+      // If condition to set repeat 
+			if (count < 2) {
+				var objDiv = document.getElementById("song-carousel");
+				objDiv.scrollTop = objDiv.scrollTop + 1;
+				if (objDiv.scrollTop == (objDiv.scrollHeight - 61)) {
+          setTimeout(function() {
+						objDiv.scrollTop = 0;
+						count++;
+            }, 1200);
+				}
+        //set scrolling time start
+				my_time = setTimeout('pageScroll()', 10);
+        //set scrolling time end
+			}
+		}
+
+const carouselSrollLeftBtn = document.getElementById('carousel-scroll-left');
+
+carouselSrollLeftBtn.onclick = function () {
+  document.getElementById('song-carousel').scrollLeft -= 1000;
+};
+const carouselSrollRightBtn = document.getElementById('carousel-scroll-right');
+
+carouselSrollRightBtn.onclick = function () {
+  document.getElementById('song-carousel').scrollLeft += 1000;
+};
+
+const popularSongsSrollLeftBtn = document.getElementById('popular-songs-scroll-left');
+
+popularSongsSrollLeftBtn.onclick = function () {
+  document.getElementById('popular-song').scrollLeft -= 1000;
+};
+const popularSongsSrollRightBtn = document.getElementById('popular-songs-scroll-right');
+
+popularSongsSrollRightBtn.onclick = function () {
+  document.getElementById('popular-song').scrollLeft += 1000;
+};
+
+
+const latestSongsSrollLeftBtn = document.getElementById('latest-songs-scroll-left');
+
+latestSongsSrollLeftBtn.onclick = function () {
+  document.getElementById('latest-song').scrollLeft -= 1000;
+};
+const latestSongsSrollRightBtn = document.getElementById('latest-songs-scroll-right');
+
+latestSongsSrollRightBtn.onclick = function () {
+  document.getElementById('latest-song').scrollLeft += 1000;
+};
+
+
+function isElementOverflowing(element) {
+  var overflowX = element.offsetWidth < element.scrollWidth,
+    overflowY = element.offsetHeight < element.scrollHeight;
+
+  return (overflowX || overflowY);
+}
+
+function wrapContentsInMarquee(element) {
+  var marquee = document.createElement('marquee'),
+    contents = element.innerText;
+
+  marquee.innerText = contents;
+  element.innerHTML = '';
+  element.appendChild(marquee);
+}
+
+// var element = document.getElementById('overflow');
+var element = document.querySelectorAll('.overflow');
+
+for (let i = 0; i < element.length; i++) {
+    if (isElementOverflowing(element[i])) {
+  wrapContentsInMarquee(element[i]);
+}
+}
+
+
+
+
+    
+
+
+
+
+    </script>
+
+</body>
+</html>
