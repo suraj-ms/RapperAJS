@@ -512,9 +512,18 @@ font-size: 1.5rem;
   }
 
   .merchandise .container .card{
-   width: 270px;
+   width: 250px;
+   margin: 10px;
+
 
   }
+
+  .merchandise .container .card:first-child{
+
+    margin-left: 20px ;
+
+  }
+
   .contactUs .container{ 
     display: block;
  
